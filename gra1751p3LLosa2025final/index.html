@@ -1,0 +1,250 @@
+<!DOCTYPE= html>
+<html lang="eng">
+<head>
+<meta charset="utf-8">
+<title>Welcome to Main Street Players! | Laura Losa 2025</title>  
+<link rel="stylesheet" href="https://use.typekit.net/tpr5nkf.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: #ccc;
+    }
+    wrapper{
+        width: 1366px;
+        margin: 0 auto;
+        display: block;
+        background-color: #fff;
+    }
+    nav{
+        position: fixed;
+        background-color: #000;
+        width: 1366px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 1000;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        padding: 16px;
+        color: #fff;
+        font-size: 24px;
+        font-family: "pakenham", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    }
+    nav ul li:hover{
+        background-color: rgb(75, 75, 75);
+        border-radius: 3px;
+        font-size: 26px;
+        transition: 0.8s ease-in-out;
+    }
+    .logo{
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 5px;
+        padding: 0;
+        display: inline-block;
+        height: 80px;
+    }
+    .bannerimage{
+        display: block;
+        width: 1366px;
+        height: auto;
+    }
+    .slides{
+        display: block;
+        margin: 0 auto;
+    }
+    .visioncontainer{
+        height: 86px;
+        background-color: #000;
+        box-shadow: 0px 10px 0px 0px gainsboro; 
+    }
+    .visionmessage{
+        color: white;
+        font-family: "pakenham", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 16pt;
+    }
+    h1{
+        font-family: "pakenham", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .slides{
+        width: 750px;
+        height: 550px;
+        margin-top: 20px;
+        border-radius: 3px;
+    }
+    .slideleftbutton, .sliderightbutton{
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 40px;
+        margin: 10px 5px;
+        border-radius: 2px;
+    }
+    .buttondiv{
+        display: flex;
+        justify-content: center;
+    }
+    .slideleftbutton:hover{
+        background-color: white;
+        border: solid black;
+        border-width: 3px;
+        color: black;
+    }
+    .sliderightbutton:hover{
+        background-color: white;
+        border: solid black;
+        border-width: 3px;
+        color: black;
+    }
+    .maps{
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-radius: 3px;
+    }
+    .address{
+        font-family: "pakenham", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer{
+        background-color: black;
+    }
+    .footertext{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px 40px;
+        margin-top: 20px;
+    }
+    #media{
+        height: 1024px;
+    }
+    .youtubevid{
+        display: block;
+        margin: 0 auto;
+        border-radius: 3px;
+    }
+    .mediaheading{
+        margin-top: 80px; !important
+    }
+</style>  
+<body>
+    <wrapper>
+        <section class="navbar" id="home">
+            <nav class="navigation">
+                <a href="#home"><img src="https://images.squarespace-cdn.com/content/v1/545ac27de4b043a545262ae1/1479701418141-E6TRSUHZK4YW11CY9T1G/MSP+LOGO+ALPHA+WHITE.png?format=1000w" alt="Main Street Players" class="logo"></a>
+                <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#media"><li>Media</li></a>
+                    <a href="#directions"><li>Directions</li></a>
+                </ul>
+            </nav>
+             <img src="bannerimage.webp" alt="banner" class="bannerimage">
+             <div class="visioncontainer">
+             <p class="visionmessage">“Main Street Player&#39;s vision is to bring bold, innovative, and relevant theater to the South Florida Community.”
+<br>— Vision, Main Street Players</p>
+             </div>
+        </section>
+        <section class="slidesection" id="media">
+            <h1 class="mediaheading">Media</h1>
+            <img class="slides" src="show1.png" alt="firstshow">
+            <img class="slides" src="show2.png" alt="secondshow">
+            <img class="slides" src="show3.png" alt="thirdshow">
+            <img class="slides" src="show4.png" alt="fourthshow">
+            <img class="slides" src="show5.png" alt="fifthshow">
+            <div class="buttondiv">
+            <button class="slideleftbutton" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="sliderightbutton" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+            <iframe class="youtubevid" width="560" height="315" src="https://www.youtube.com/embed/D5sn4NOJq_M?si=rQK2iSrc8eedtpzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="directions">
+            <h1 class="dheading">Directions</h1>
+            <p class="address">6812 Main St, Miami Lakes, FL 33014</p>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.680307931311!2d-80.31357772454118!3d25.91287797725724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a52e6a6c1127%3A0x58f532d533cb13bb!2sMain%20Street%20Players!5e0!3m2!1sen!2sus!4v1760309226227!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <footer class="footertext">
+                <p>© 2025, Laura Losa. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+            </footer>
+        </section>
+    </wrapper>
+    <script>
+        var slideIndex= 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            if ( n > x.length) {slideIndex = 1}
+            if ( n < 1) {slideIndex =  x.length} ;
+            for ( i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+         window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.navigation a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
