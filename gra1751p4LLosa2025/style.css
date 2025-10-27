@@ -1,0 +1,250 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+wrapper{
+	width: 1366px;
+	display: block;
+	margin: 0 auto;
+	height: 768px;
+	background-image: url("homeimage.jpg");
+	background-size: 1366px 768px;
+	position: relative;
+}
+nav{
+	width: 1366px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	backdrop-filter: blur(30px);
+	box-shadow: 0px 0px 30px rgba(227, 228, 257, 0.37);
+	border: 1.5px solid rgba(255, 255, 255, 0.18);
+	margin-top: 20px;
+	border-radius: 5px;
+}
+nav ul li{
+	padding: 16px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+}
+.logo{
+	height: 60px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+footer{
+	background-color: rgba(0,0,0,0.78);
+	width: 1366px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+footer p{
+	color: rgba(219,219,219,1.00);
+	padding: 20px;
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+h1{
+	font-family: "giulia", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+	display: inline-block;
+	backdrop-filter: blur(30px);
+	box-shadow: 0px 0px 30px rgba(227, 228, 257, 0.37);
+	padding: 0 10px;
+	border-bottom: 2px solid white;
+}
+nav ul li:hover{
+	background-color: rgba(255,200,61,0.95);
+	border-radius: 5px;
+	border-bottom: solid;
+	border-right: solid;
+	border-width: 5px;
+	padding-bottom: 10px;
+	transition: 0.2s ease;
+	color: black;
+}
+.h1container{
+	display: flex;
+	justify-content: center;
+}
+.newssite{
+	display: block;
+	margin: 0 auto;
+	background-color:rgba(0,0,0,0.87);
+	padding: 30px;
+	border-radius: 3px;
+}
+.CDs{
+	width: 350px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0;
+}
+h2{
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	display: inline-block;
+	background-color:rgba(255,255,255,0.82);
+	padding: 0 10px;
+	border-radius: 3px;
+	border: solid;
+}
+h2:hover{
+	background-color: rgba(255,200,61,0.95);
+	border-radius: 5px;
+	border-bottom: solid;
+	border-width: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.h2container{
+	display: flex;
+	justify-content: center;
+}
+.ytvideo{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.concerts{
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
+	color: black;
+	line-height: 39.5px;
+	
+}
+.concertdates ul{
+	display: inline-block;
+	list-style: none;
+}
+.concertdates{
+	width: 525px;
+	padding-right: 5px;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0.80);
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px rgba(227, 228, 257, 0.37);
+	border-bottom: solid black;
+	border-right: solid black;
+	border-width: 5px;
+}
+.gallery{
+	display: block;
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	border: solid;
+	border-width: 20px;
+	border-color: white;
+	border-bottom: solid 45px white;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+.email{
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 50px;
+	display: inline-block;
+	padding: 20px;
+	padding-top: 70px;
+	border-radius: 3px;
+	width: 300px;
+	background-color: white;
+	border-bottom: solid black 5px;
+	border-right: solid black 5px;
+}
+.mailcontainer{
+	display: flex;
+	justify-content: center;
+}
+.merchandise{
+	width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.merchdescription{
+	display: inline-block;
+	color: white;
+	border-radius: 3px;
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	backdrop-filter: blur(30px);
+	box-shadow: 0px 0px 30px rgba(227, 228, 257, 0.37);
+	padding: 10px;
+}
+.shopbutton{
+	display: block;
+	margin: 0 auto;
+	border: none; 
+	text-decoration: none;
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 3px;
+	padding: 10px;
+}
+.shopbutton:hover{
+	background-color: rgba(255,200,61,0.95);
+	border-radius: 5px;
+	border-bottom: solid;
+	border-width: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.shoplink{
+	text-decoration: none;
+}
+.blogpost{
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	border-radius: 8px;
+	transition: 0.5s ease-in-out;
+}
+.blogpost:hover{
+	transform: scale(0.9);
+	transition: 0.5s ease-in-out;
+}
+.privacystatenebt{
+	background-color: black;
+	color: white;
+	font-family: "giulia-plain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 20px 50px;
+	line-height: 28px;
+	margin-top: 0;
+}
