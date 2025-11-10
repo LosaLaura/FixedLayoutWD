@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Welcome to Clay's Clothing Store | Laura Losa 2025</title>
+<link rel="stylesheet" href="https://use.typekit.net/lhc0rds.css">
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color:#ccc;
+		}
+		wrapper{
+			width: 1366px;
+			display: block;
+			margin: 0 auto;
+			background-color: #fff;
+		}
+		.navigation{
+			background-color: antiquewhite;
+			width: 1366px;
+			display: flex;
+			flex-direction: row;	
+			align-items: center;
+			box-shadow: 0px 4px 10px -2px #E0D7C5;
+		}
+		.logo{
+			margin: 0;
+			margin-left: 270px;
+			margin-top: 5px;
+			padding: 0;
+			height: 120px;
+			display: inline-block;
+		}
+		.navigation ul li{
+			padding: 16px;
+			display: inline-block;
+			font-size: 24px;
+			font-family: "baga", sans-serif;
+			font-weight: 500;
+			font-style: normal;
+			text-align: center;
+			color:rgba(69,48,36,1.00);
+			border-bottom: solid antiquewhite;
+		}
+		section{
+			width: 50%;
+			display: inline-block;
+			margin-right: 4px;
+			box-sizing: border-box;
+			vertical-align: top;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			padding-left: 40px;
+			margin-right: -4px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.apparel{
+			position: relative;
+			display: inline-block;
+		}
+		div{
+    	position: absolute;
+    	top: 30px;;
+    	left: 40px;
+    	visibility: hidden;
+		}
+		.black, .green, .navy{
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			margin: 8px;
+			border-radius: 25px;
+			border: thick solid white;
+		}
+		.black{
+			background-color:rgba(51,45,45,1.00);
+		}
+		.green{
+			background-color:rgba(54,104,55,1.00);
+		}
+		.navy{
+			background-color:rgba(56,52,138,1.00);
+		}
+		.colors button:hover{
+			border: thick solid orange;
+			cursor: pointer;
+		}
+		#black-cardigan, #green-cardigan, #navy-cardigan{
+			border-radius: 8px;
+		}
+		h2, h3 {
+			font-family: "baga", sans-serif;
+			font-weight: 500;
+			font-style: normal;
+		}
+		.desc li{
+			font-family: "baga", sans-serif;
+			font-weight: 300;
+			font-style: normal;
+		}
+		footer p{
+			font-family: "baga", sans-serif;
+			font-weight: 300;
+			font-style: normal;
+			color: antiquewhite;
+		}
+		footer{
+			background-color:rgba(73,61,59,1.00);
+			padding: 20px 50px;
+			
+		}
+		.sizes{
+			background-color: black;
+			margin: 5px;
+			padding: 5px 10px;
+			border: solid black;
+			border-radius: 5px;
+			color: antiquewhite;
+			font-family: "baga", sans-serif;
+			font-weight: 500;
+			font-style: normal;
+		}
+		.sizes:hover{
+			cursor: pointer;
+			background-color: antiquewhite;
+			color: black;
+		}
+		.navigation li:hover{
+			border-bottom: solid rgba(69,48,36,1.00);
+			cursor: pointer;
+			background-color: rgba(69,48,36,1.00);
+			transition: 0.3s ease;
+			color: antiquewhite;
+			border-radius: 5px;
+		}
+		.qty{
+			font-family: "baga", sans-serif;
+			font-weight: 300;
+			font-style: normal;
+		}
+	</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('backblack.png','backgreen.png','backnavy.png')">
+	<wrapper>
+	  <nav class="navigation">
+			<a href="#home"><img src="clayslogo.png" alt="clayslogo" class="logo"></a>
+			<ul>
+				<li>Women</li>
+				<li>Men</li>
+				<li>Kids</li>
+				<li>Shoes</li>
+				<li>Accessories</li>
+			</ul>
+		</nav>
+		<section class="top">
+			<h2>Women's Ribbed Cuff Cardigan Sweater</h2>
+			<h3>$25.00</h3>
+			<h3>Colors</h3>
+			<nav class="colors">
+				<button class="black" onClick="MM_showHideLayers('black-cardigan','','show','green-cardigan','','hide','navy-cardigan','','hide')"></button>
+				<button class="green" onClick="MM_showHideLayers('black-cardigan','','hide','green-cardigan','','show','navy-cardigan','','hide')"></button>
+				<button class="navy" onClick="MM_showHideLayers('black-cardigan','','hide','green-cardigan','','hide','navy-cardigan','','show')"></button>
+			</nav>
+			<h3>Sizes</h3>
+			<button class="sizes">XS</button><button class="sizes">S</button><button class="sizes">M</button><button class="sizes">L</button><button class="sizes">XS</button>
+			<h3>Quantity</h3>
+			<p class="qty">1 QTY</p>
+			<h3>Design</h3>
+			<ul class="desc">
+				<li>Regular-fit long-sleeve cardigan in a solid hue</li>
+				<li>Recycled polyester, viscose and recycled nylon blend rib-knit fabric</li>
+				<li>Front button-down style</li>
+				<li>Crewneck style with long length</li>
+			</ul>
+		</section>
+	    <section class="apparel">
+			<div style="visibility:visible;"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('black-cardigan','','backblack.png',1)"><img src="frontblack.png" alt="Black womens cardigan" width="500" height="500" id="black-cardigan"></a></div>
+			<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('green-cardigan','','backgreen.png',1)"><img src="frontgreen.png" alt="Green womens cardigan" width="500" height="500" id="green-cardigan"></a></div>
+			<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('navy-cardigan','','backnavy.png',1)"><img src="frontnavy.png" alt="Navy womens cardigan" width="500" height="500" id="navy-cardigan"></a></div>
+		</section>
+		<footer>
+			<p>© 2025, Laura Losa. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>		
+</wrapper>
+</body>
+</html>
