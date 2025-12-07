@@ -1,0 +1,150 @@
+@charset "utf-8";
+		body{
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+	}
+		wrapper{		
+	width: 1366px;
+	display: block;
+	margin: 0 auto;
+	background-color:rgba(205,160,109,1.00);
+	
+		}
+		header{
+	height: 130px;
+	border-bottom: solid 5px rgba(239,201,168,1.00); 
+	padding-top: 10px;
+	background-color: antiquewhite;
+		}
+		footer{
+	padding: 10px 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif', sans-serif;
+	font-size: 15px;
+	background-color: rgba(25,8,0,0.81);
+	color: antiquewhite;
+	margin-top: 20px;
+		}
+		h1, h2, h3{
+	margin: 0;
+	text-align: center;
+	font-family: "gelica", sans-serif;
+	font-weight: 400;
+	color: #333;
+}
+		section{
+	width: 50%;
+	display: inline-block;
+	margin-right: -4px;
+	padding: 16px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+		label{
+	display: block;
+	font-size: 12px;
+	padding: 16px;
+	font-family: "playpen-sans", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #333;
+}
+		input, select{
+	width: 90%;
+	margin: 16px;
+	padding: 16px;
+	border-radius: 8px;
+	background-color: antiquewhite;
+	border: none;
+}
+#tandc_txt{
+	width: auto;
+	margin-left: 16px;
+	margin-top: -24px;
+}
+#salute{
+	width: 25%;
+	display: inline-block;
+	margin-right: -4px;
+}
+#first{
+	width: 72%;
+	display: inline-block;
+	margin-right: -4px;
+}
+#states_txt{
+	width: 95%;
+}
+#submit_btn{
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+	color: antiquewhite;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color:rgba(108,78,44,1.00);
+}
+#submit_btn:hover{
+	cursor: pointer;
+	background-color: antiquewhite;
+	color: #333;
+	transition: 0.2s ease-in-out;
+}
+.logo{
+	width: 8%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	padding-top: 25px;
+}
+input::placeholder{
+	font-family: "playpen-sans", sans-serif;
+	font-weight: 400;
+}
+option{
+	font-family: "playpen-sans", sans-serif;
+}
+#states_txt{
+	font-family: "playpen-sans", sans-serif;
+}
+#salutation_txt{
+	font-family: "playpen-sans", sans-serif;
+}
+.photo{
+	width: 1366px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.hcontainer{
+	background-color: rgba(25,8,0,0.81);
+	padding-bottom: 25px;
+}
+.hcontainer h1{
+	color: antiquewhite;
+	font-family: "gelica", sans-serif;
+	font-weight: 400;
+}
+.hcontainer h2{
+	color: antiquewhite;
+	font-family: "gelica", sans-serif;
+	font-weight: 400;
+}
+.hcontainer h3{
+	color: antiquewhite;
+	font-family: "gelica", sans-serif;
+	font-weight: 400;
+}
+#confirmfooter{
+	padding: 10px 50px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif', sans-serif;
+	font-size: 15px;
+	background-color: rgba(25,8,0,0.81);
+	color: antiquewhite;
+	margin-top: 0;
+}
+.logo{
+	cursor: pointer;
+}
